@@ -1,6 +1,8 @@
 # sample
 
-A new Flutter project.
+This is a new cubit with stateless widget introduction.
+And also from this project, you can know how to convert a stateful widget to a stateless widget.
+Hope you enjoy the project.
 
 ## Getting Started
 
