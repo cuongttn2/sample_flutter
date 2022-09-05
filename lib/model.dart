@@ -23,4 +23,19 @@ class SampleModel {
       dateTime: DateFormat('MM:dd').format(dt),
     );
   }
+   SampleModel copyWith({
+      String? id,
+      String? name,
+      String? weather,
+      String? location,
+      String? dateTime,
+  }) {
+    return SampleModel(
+      id: id ?? this.id,
+      name: name ?? this.name,
+      weather: weather ?? this.weather,
+      location: location ?? this.location,
+      dateTime: dateTime ?? this.dateTime,
+    );
+  }
 }
