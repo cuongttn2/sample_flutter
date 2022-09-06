@@ -4,6 +4,9 @@ This is a new cubit with stateless widget introduction.
 And also from this project, you can learn how to convert a stateful widget to a stateless widget.
 Hope you enjoy the project.
 
+# how to run
+Because this code needs null safty, you can run the command: flutter run --no-sound-null-safety
+Or in your settings add the command in Flutter run additional args/Additional run args
 ## Getting Started
 
 This project is a starting point for a Flutter application.
