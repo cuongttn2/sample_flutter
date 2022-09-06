@@ -29,7 +29,7 @@ class ChartView extends StatelessWidget {
           margin: const EdgeInsets.fromLTRB(10, 10, 15, 10),
           plotAreaBorderWidth: 0,
           title: ChartTitle(
-              text: 'Elevation',
+              text: 'Bar Chart',
               textStyle: const TextStyle(
                   color: Colors.black,
                   fontSize: 25)),
@@ -67,8 +67,8 @@ class ChartView extends StatelessWidget {
     List<ChartSeries<ChartData, String>> _getSeries() {
     return <ChartSeries<ChartData, String>>[
       ColumnSeries<ChartData, String>(
-          color: Colors.green.withOpacity(0.4),
-          borderColor: Colors.green,
+          color: Colors.blue.withOpacity(0.4),
+          borderColor: Colors.blue,
           borderWidth: 2,
           dataSource: dataSource ??
               <ChartData>[
