@@ -4,6 +4,11 @@ This is a new cubit with stateless widget introduction.
 And also from this project, you can learn how to convert a stateful widget to a stateless widget.
 Hope you enjoy the project.
 
+Detail instruction:
+https://medium.com/@kidherbert43/flutter-study-build-a-beautiful-chart-7f3ebabd5552
+https://medium.com/@kidherbert43/flutter-study-how-to-use-model-2757ba299b67
+https://medium.com/@kidherbert43/flutter-study-cubit-with-stateless-widget-2f4cd941edec
+
 # how to run
 Because this code needs null safty, you can run the command: flutter run --no-sound-null-safety
 Or in your settings add the command in Flutter run additional args/Additional run args
