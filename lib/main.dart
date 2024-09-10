@@ -64,7 +64,7 @@ class MyHomePage extends StatelessWidget {
                 ),
               ),
               bottomNavigationBar: BottomNavyBar(
-                  selectedIndex: state.value1,
+                  selectedIndex: state.value1 ?? 0,
                   showElevation: true,
                   itemCornerRadius: 24,
                   curve: Curves.easeIn,
